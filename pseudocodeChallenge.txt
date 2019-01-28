@@ -41,6 +41,27 @@ Jika tahun habis di bagi 4 dan tidak habis di bagi 100, dan
 Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
 Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
 
+Jawaban
+
+ALGORITMA
+
+  1 START
+  2 INPUT nilai tahun
+  3 POSES tahun modulus 4
+  4 IF 
+  4 POSES m dikalikan a
+  5 OUTPUT nilai F sebagai hasil perhitungan
+  6 STOP
+  
+PSEUDOCODE
+
+  READ and SAVE "massaBenda"
+  READ and SAVE "percpatanBenda"
+  COMPUTE "massaBenda" times by "percepatanBenda"
+  SAVE previous computation result
+  SHOW the computation result
+
+
 3. Laundry Day
 Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
 
