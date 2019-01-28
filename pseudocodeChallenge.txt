@@ -13,6 +13,25 @@ a = percepatan benda (m/s2)
 
 Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
 
+Jawaban
+
+ALGORITMA
+
+  1 START
+  2 INPUT nilai m = massa benda (kg)
+  3 INPUT nilai a = percepatan benda (m/s2)
+  4 POSES m dikalikan a
+  5 OUTPUT nilai F sebagai hasil perhitungan
+  6 STOP
+  
+PSEUDOCODE
+
+  READ and SAVE "massaBenda"
+  READ and SAVE "percpatanBenda"
+  COMPUTE "massaBenda" times by "percepatanBenda"
+  SAVE previous computation result
+  SHOW the computation result
+
 2. Tahun Kabisat
 Apa yang kamu ketahui tentang tanggal 29 Februari? Kamu pasti tahu jika suatu tahun memiliki tanggal 29 Februari berarti tahun tersebut merupakan tahun kabisat.
 
