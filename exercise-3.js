@@ -1,6 +1,6 @@
 //Menggunakan If Else
-var nama = 'Zero';  // variabel nama              
-var peran = 'penyIHIR';     // variabel peran
+var nama = 'Nova';  // variabel nama              
+var peran = 'student';     // variabel peran
 
 var peranValid = false;             //buat variabel PeranValid untuk mempermudah validasi peran
 pemeran = peran.toLowerCase();       //buat variabel peran menjadi huruf kecil agar nanti input untuk peran tidak case sensitive
@@ -44,17 +44,192 @@ else if ( nama !== '' ) {
 // Output untuk Input nama = '' dan peran = ''
 //"Nama harus diisi!"
 
+var nama = '';               
+var peran = '';  
+
+var peranValid = false;             
+pemeran = peran.toLowerCase();   
+var tampilanPeran = ', Pilih peranmu untuk memulai game!';    
+if (pemeran === 'ksatria') {       
+    peranValid = true;
+    tampilanPeran = ', kamu dapat menyerang dengan senjatamu!';
+    peran = 'Ksatria';
+} else if (pemeran === 'tabib') {
+    peranValid = true;
+    tampilanPeran = ', kamu akan membantu temanmu yang terluka.';
+    peran = 'Tabib';
+} else if (pemeran === 'penyihir') {
+    peranValid = true;
+    tampilanPeran = ', ciptakan keajaiban yang membantu kemenanganmu!';
+    peran = 'Penyihir';
+} else {
+    peranValid = false;
+    peran = '';
+    tampilanPeran = ', Pilih peranmu untuk memulai game!';
+}
+if (nama === '') {
+    peran = '';
+    console.log('Nama harus diisi!');
+}
+else if ( peranValid === true ) {
+    console.log('Selamat datang di Dunia Proxytia, ' + nama + '.' );
+    console.log('Halo '+ peran + ' ' + nama + '' + tampilanPeran );
+}
+else if ( nama !== '' ) {
+    console.log('Halo ' + nama, tampilanPeran);
+}
+
 //Output untuk Input nama = 'Mikael' dan peran = ''
 //"Halo Mikael, Pilih peranmu untuk memulai game!"
+
+var nama = 'Mikael';               
+var peran = '';  
+
+var peranValid = false;             
+pemeran = peran.toLowerCase();   
+var tampilanPeran = ', Pilih peranmu untuk memulai game!';    
+if (pemeran === 'ksatria') {       
+    peranValid = true;
+    tampilanPeran = ', kamu dapat menyerang dengan senjatamu!';
+    peran = 'Ksatria';
+} else if (pemeran === 'tabib') {
+    peranValid = true;
+    tampilanPeran = ', kamu akan membantu temanmu yang terluka.';
+    peran = 'Tabib';
+} else if (pemeran === 'penyihir') {
+    peranValid = true;
+    tampilanPeran = ', ciptakan keajaiban yang membantu kemenanganmu!';
+    peran = 'Penyihir';
+} else {
+    peranValid = false;
+    peran = '';
+    tampilanPeran = ', Pilih peranmu untuk memulai game!';
+}
+if (nama === '') {
+    peran = '';
+    console.log('Nama harus diisi!');
+}
+else if ( peranValid === true ) {
+    console.log('Selamat datang di Dunia Proxytia, ' + nama + '.' );
+    console.log('Halo '+ peran + ' ' + nama + '' + tampilanPeran );
+}
+else if ( nama !== '' ) {
+    console.log('Halo ' + nama, tampilanPeran);
+}
 
 //Output untuk Input nama = 'Nina' dan peran 'Ksatria'
 //"Selamat datang di Dunia Proxytia, Nina"
 //"Halo Ksatria Nina, kamu dapat menyerang dengan senjatamu!"
 
+var nama = 'Nina';               
+var peran = 'Ksatria';  
+
+var peranValid = false;             
+pemeran = peran.toLowerCase();   
+var tampilanPeran = ', Pilih peranmu untuk memulai game!';    
+if (pemeran === 'ksatria') {       
+    peranValid = true;
+    tampilanPeran = ', kamu dapat menyerang dengan senjatamu!';
+    peran = 'Ksatria';
+} else if (pemeran === 'tabib') {
+    peranValid = true;
+    tampilanPeran = ', kamu akan membantu temanmu yang terluka.';
+    peran = 'Tabib';
+} else if (pemeran === 'penyihir') {
+    peranValid = true;
+    tampilanPeran = ', ciptakan keajaiban yang membantu kemenanganmu!';
+    peran = 'Penyihir';
+} else {
+    peranValid = false;
+    peran = '';
+    tampilanPeran = ', Pilih peranmu untuk memulai game!';
+}
+if (nama === '') {
+    peran = '';
+    console.log('Nama harus diisi!');
+}
+else if ( peranValid === true ) {
+    console.log('Selamat datang di Dunia Proxytia, ' + nama + '.' );
+    console.log('Halo '+ peran + ' ' + nama + '' + tampilanPeran );
+}
+else if ( nama !== '' ) {
+    console.log('Halo ' + nama, tampilanPeran);
+}
+
 //Output untuk Input nama = 'Danu' dan peran 'Tabib'
 //"Selamat datang di Dunia Proxytia, Danu"
 //"Halo Tabib Danu, kamu akan membantu temanmu yang terluka."
 
+var nama = 'Danu';               
+var peran = 'Tabib';  
+
+var peranValid = false;             
+pemeran = peran.toLowerCase();   
+var tampilanPeran = ', Pilih peranmu untuk memulai game!';    
+if (pemeran === 'ksatria') {       
+    peranValid = true;
+    tampilanPeran = ', kamu dapat menyerang dengan senjatamu!';
+    peran = 'Ksatria';
+} else if (pemeran === 'tabib') {
+    peranValid = true;
+    tampilanPeran = ', kamu akan membantu temanmu yang terluka.';
+    peran = 'Tabib';
+} else if (pemeran === 'penyihir') {
+    peranValid = true;
+    tampilanPeran = ', ciptakan keajaiban yang membantu kemenanganmu!';
+    peran = 'Penyihir';
+} else {
+    peranValid = false;
+    peran = '';
+    tampilanPeran = ', Pilih peranmu untuk memulai game!';
+}
+if (nama === '') {
+    peran = '';
+    console.log('Nama harus diisi!');
+}
+else if ( peranValid === true ) {
+    console.log('Selamat datang di Dunia Proxytia, ' + nama + '.' );
+    console.log('Halo '+ peran + ' ' + nama + '' + tampilanPeran );
+}
+else if ( nama !== '' ) {
+    console.log('Halo ' + nama, tampilanPeran);
+}
+
 //Output untuk Input nama = 'Zero' dan peran 'Penyihir'
 //"Selamat datang di Dunia Proxytia, Zero"
 //"Halo Penyihir Zero, ciptakan keajaiban yang membantu kemenanganmu!"
+
+var nama = 'Zero';               
+var peran = 'Penyihir';  
+
+var peranValid = false;             
+pemeran = peran.toLowerCase();   
+var tampilanPeran = ', Pilih peranmu untuk memulai game!';    
+if (pemeran === 'ksatria') {       
+    peranValid = true;
+    tampilanPeran = ', kamu dapat menyerang dengan senjatamu!';
+    peran = 'Ksatria';
+} else if (pemeran === 'tabib') {
+    peranValid = true;
+    tampilanPeran = ', kamu akan membantu temanmu yang terluka.';
+    peran = 'Tabib';
+} else if (pemeran === 'penyihir') {
+    peranValid = true;
+    tampilanPeran = ', ciptakan keajaiban yang membantu kemenanganmu!';
+    peran = 'Penyihir';
+} else {
+    peranValid = false;
+    peran = '';
+    tampilanPeran = ', Pilih peranmu untuk memulai game!';
+}
+if (nama === '') {
+    peran = '';
+    console.log('Nama harus diisi!');
+}
+else if ( peranValid === true ) {
+    console.log('Selamat datang di Dunia Proxytia, ' + nama + '.' );
+    console.log('Halo '+ peran + ' ' + nama + '' + tampilanPeran );
+}
+else if ( nama !== '' ) {
+    console.log('Halo ' + nama, tampilanPeran);
+}
